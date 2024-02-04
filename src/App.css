@@ -1,0 +1,35 @@
+#hero_section{
+  min-height: 100vh;
+  background-image: url('/public/images/studio.jpg');
+  background-size: cover;
+}
+
+.overlay{
+  background-color: #00000069;
+  min-height: 100vh;
+}
+
+/* Navigation Bar  */
+.main_nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5em;
+  color: #ffffff;
+  background-color: #00000091;
+}
+
+.nav_brand{
+  margin-left: 2em;
+}
+
+.nav_links_div{
+  width: 50%;
+}
+
+.nav_links_div ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
