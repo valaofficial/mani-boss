@@ -33,3 +33,17 @@
   align-items: center;
   list-style: none;
 }
+
+.hero_txt{
+  padding: 5em;
+  color: #ffffff;
+}
+
+.hero_txt h2{
+  font-size: 4rem;
+}
+
+.hero_txt p{
+  width: 50%;
+  font-size: 1.25rem;
+}
