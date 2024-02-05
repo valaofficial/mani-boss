@@ -2,6 +2,17 @@ import './App.css';
 import Nav from './components/Nav';
 function App() {
   return (
+    <>
+      <Hero/>
+      <Services/>
+    </>
+  );
+}
+
+export default App;
+
+function Hero() {
+  return(
     <section id='hero_section'>
       <div className='overlay'>
         <Nav/>
@@ -18,7 +29,30 @@ function App() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default App;
+
+function Services() {
+  return(
+    <section id='services_section'>
+      <div className='services_div'>
+        <div className='service studios_div'>
+          <div className='services_overlay'>
+            hello
+          </div>
+        </div>
+        <div className='service mastering_div'>
+          <div className='services_overlay'>
+            hello
+          </div>
+        </div>
+        <div className='service post_prod_div'>
+          <div className='services_overlay'>
+            hello
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}

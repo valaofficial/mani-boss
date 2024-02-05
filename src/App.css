@@ -1,5 +1,7 @@
-#hero_section{
+section{
   min-height: 100vh;
+}
+#hero_section{
   background-image: url('/public/images/studio.jpg');
   background-size: cover;
 }
@@ -46,4 +48,45 @@
 .hero_txt p{
   width: 50%;
   font-size: 1.25rem;
+}
+
+/* Services */
+#services_section{
+  padding: 2em;
+}
+.services_div{
+  background-color: rgb(29, 212, 29);
+  min-height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.service{
+  height: 25rem;
+  width: 20rem;
+  background-color: #ffffff;
+  position: relative;
+  bottom: -5em;
+}
+
+.services_overlay{
+  background-color: #000000a8;
+  width: 100%;
+  height: 100%;
+}
+
+.studios_div{
+  background-image: url('/public/images/recording.jpg');
+  background-size: cover;
+}
+
+.mastering_div{
+  background-image: url('/public/images/mastering.jpg');
+  background-size: cover;
+}
+
+.post_prod_div{
+  background-image: url('/public/images/prod.jpg');
+  background-size: cover;
 }
