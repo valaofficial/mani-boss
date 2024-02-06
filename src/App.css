@@ -59,12 +59,12 @@ section{
   top: 5em;
 }
 
-.mobileNavMenu ul{
+.mobileNavMenu{
   list-style: none;
   text-align: center;
 }
 
-.mobileNavMenu ul li{
+.mobileNavMenu div{
   margin-top: 1em;
   font-size: 1.25em;
 }

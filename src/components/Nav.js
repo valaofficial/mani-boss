@@ -33,13 +33,11 @@ function Nav() {
 
         </div>
         <div className={`mobileNavMenu ${navMenuVisible?`mobileNavMenuVisible`:null}`}>
-            <ul>
-                <li>HOME</li>
-                <li>PRODUCTS</li>
-                <li>TESTIMONIALS</li>
-                <li>GALLERY</li>
-                <li>CONTACT</li>
-            </ul>
+            <div>HOME</div>
+            <div>PRODUCTS</div>
+            <div>TESTIMONIALS</div>
+            <div>GALLERY</div>
+            <div>CONTACT</div>
         </div>
     </>
   );
