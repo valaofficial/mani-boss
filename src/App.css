@@ -52,7 +52,7 @@ section{
   padding-top: 1em;
   padding-bottom: 1em;
   top: -200vh;
-  transition: all 500ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 .mobileNavMenuVisible{
@@ -87,9 +87,10 @@ section{
 
 /* Services */
 #services_section{
-  padding: 2em;
+  padding: 1em;
 }
 .services_div{
+  padding: 2em;
   background-color: #53A548;
   min-height: 50vh;
   display: flex;
@@ -129,10 +130,41 @@ section{
 
 /* Tablets */
 @media only screen and (max-width: 768px){
-  
+  #services_section{
+    min-height: 100vh;
+  }
+
+  .services_div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .service{
+    position: initial;
+    bottom: 0;
+    width: 100%;
+  }
 }
 
 /* Mobile  */
 @media only screen and (max-width: 425px){
-  
+  #services_section{
+    padding: 1em;
+  }
+
+  .services_div{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 0;
+    row-gap: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .service{
+    height: 25em;
+  }
 }

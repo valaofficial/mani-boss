@@ -25,7 +25,10 @@ function Nav() {
                 </ul>
             </div>:
         <div className="nav_menu_div">
+            {!navMenuVisible?
             <img src='/images/menu-lt.svg' onClick={handleNavMenu} alt='Menu'/>
+            :
+            <img src='/images/cancel-lt.svg' onClick={handleNavMenu} alt='Menu'/>}
         </div>}
 
         </div>
