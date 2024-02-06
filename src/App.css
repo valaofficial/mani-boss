@@ -36,6 +36,41 @@ section{
   list-style: none;
 }
 
+.nav_menu_div{
+  margin-right: 1em;
+}
+
+.nav_menu_div img{
+  width: 2em;
+}
+
+.mobileNavMenu{
+  min-height: 30vh;
+  width: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  top: -200vh;
+  transition: all 500ms ease-in-out;
+}
+
+.mobileNavMenuVisible{
+  top: 5em;
+}
+
+.mobileNavMenu ul{
+  list-style: none;
+  text-align: center;
+}
+
+.mobileNavMenu ul li{
+  margin-top: 1em;
+  font-size: 1.25em;
+}
+
+/* Hero Section  */
+
 .hero_txt{
   padding: 5em;
   color: #ffffff;
@@ -55,7 +90,7 @@ section{
   padding: 2em;
 }
 .services_div{
-  background-color: rgb(29, 212, 29);
+  background-color: #53A548;
   min-height: 50vh;
   display: flex;
   justify-content: space-evenly;
@@ -89,4 +124,15 @@ section{
 .post_prod_div{
   background-image: url('/public/images/prod.jpg');
   background-size: cover;
+}
+
+
+/* Tablets */
+@media only screen and (max-width: 768px){
+  
+}
+
+/* Mobile  */
+@media only screen and (max-width: 425px){
+  
 }
